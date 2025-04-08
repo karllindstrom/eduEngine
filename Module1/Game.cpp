@@ -128,6 +128,18 @@ void Game::update(
     }
 }
 
+void Game::init_entities()
+{
+    //horse with components transform, velocity, mesh
+
+    auto horse = entity_registry->create();
+
+    //translate, quatrot, scale
+    TransformComponent transform{ glm_aux::vec3_000,
+    glm::angleAxis(glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0f)),
+    glm::vec3(0.03f) };
+}
+
 void Game::render(
     float time,
     int windowWidth,

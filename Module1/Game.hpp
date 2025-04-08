@@ -25,6 +25,8 @@ public:
         float deltaTime,
         InputManagerPtr input) override;
 
+    void init_entities();
+
     /// @brief For rendering of game contents
     /// @param time Total time elapsed in seconds
     /// @param screenWidth Current width of the window in pixels
@@ -49,6 +51,21 @@ private:
 
     // Entity registry - to use in labs
     std::shared_ptr<entt::registry> entity_registry;
+
+    struct TransformComponent
+    {
+        glm::vec3 position{ 0.0f,0.0f,0.0f };
+        glm::vec3 scale{ 1.0f,1.0f,1.0f };
+        glm::quat rotation{ 1.0f,0.0f,0.0f,0.0f };
+
+        glm::mat4 GetTransformMatrix() const
+        {
+            glm::mat4 translationMat = glm::translate(glm::mat4(1.0f), position);
+            glm::mat4 scaleMat = glm::scale(glm::mat4(1.0f), scale);
+            glm::mat4 rotationMat = glm::mat4_cast(rotation);
+            return translationMat * scaleMat * rotationMat;
+        }
+    };
 
     // Matrices for view, projection and viewport
     struct Matrices
