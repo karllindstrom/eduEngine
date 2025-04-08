@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\d5f192e16f1bb7f471a9d0eaf57e01ca\glew-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\9a9eac2b6bdb31a1c8138cdf391421f4\glew-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\3f022a35f61015af7ae92976186971cf\glew-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\glew-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B56DE8F2-3AD0-3C29-A98D-727C56AD6846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

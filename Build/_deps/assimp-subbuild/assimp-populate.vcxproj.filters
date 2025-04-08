@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\0ab837ce785009034a2206183b7e11ef\assimp-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\aba17a4172ed9381cccb6668a71c9683\assimp-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\26ab03ae23cf3332d1563946b19b88ca\assimp-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="M:\eduEngineKarl\Build\_deps\assimp-subbuild\CMakeFiles\assimp-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{05B4BCC3-33E1-3787-9AD6-06E111F9C143}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/5af2adbaa40f8dcffd0bd0cbeb182965/glm-populate.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/ded6fd40b6e78cb0d1203b40fe2f7e61/glm-populate-complete.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-build.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-configure.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-download.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-install.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-patch.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-test.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/glm-subbuild/CMakeFiles/0cb479dc96fc963f76950b3e6b757b8a/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

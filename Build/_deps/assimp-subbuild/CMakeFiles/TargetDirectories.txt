@@ -1,0 +1,3 @@
+M:/eduEngineKarl/Build/_deps/assimp-subbuild/CMakeFiles/assimp-populate.dir
+M:/eduEngineKarl/Build/_deps/assimp-subbuild/CMakeFiles/ALL_BUILD.dir
+M:/eduEngineKarl/Build/_deps/assimp-subbuild/CMakeFiles/ZERO_CHECK.dir

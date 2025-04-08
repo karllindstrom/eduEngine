@@ -1,6 +1,6 @@
 ## Project specific ignores
-[Bb]uild/
-assets/
+
+
 doxygen/
 .DS_Store
 

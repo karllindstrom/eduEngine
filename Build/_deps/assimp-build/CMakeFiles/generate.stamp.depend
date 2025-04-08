@@ -1,0 +1,28 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+M:/eduEngineKarl/Build/CMakeFiles/3.28.3-msvc11/CMakeCCompiler.cmake
+M:/eduEngineKarl/Build/_deps/assimp-src/CMakeLists.txt
+M:/eduEngineKarl/Build/_deps/assimp-src/assimp-config-version.cmake.in
+M:/eduEngineKarl/Build/_deps/assimp-src/assimp-config.cmake.in
+M:/eduEngineKarl/Build/_deps/assimp-src/assimp.pc.in
+M:/eduEngineKarl/Build/_deps/assimp-src/assimpTargets-debug.cmake.in
+M:/eduEngineKarl/Build/_deps/assimp-src/assimpTargets-release.cmake.in
+M:/eduEngineKarl/Build/_deps/assimp-src/assimpTargets.cmake.in
+M:/eduEngineKarl/Build/_deps/assimp-src/cmake-modules/FindDirectX.cmake
+M:/eduEngineKarl/Build/_deps/assimp-src/cmake-modules/FindPkgMacros.cmake
+M:/eduEngineKarl/Build/_deps/assimp-src/cmake-modules/PrecompiledHeader.cmake
+M:/eduEngineKarl/Build/_deps/assimp-src/cmake/HunterGate.cmake
+M:/eduEngineKarl/Build/_deps/assimp-src/include/assimp/config.h.in
+M:/eduEngineKarl/Build/_deps/assimp-src/revision.h.in

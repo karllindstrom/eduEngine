@@ -1,0 +1,14 @@
+# Target labels
+ sdl2-populate
+# Source files and their labels
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/2bd3ed1251d7c987167f52a35670ca41/sdl2-populate.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/d631403802a2c3033f1bc43dc296cf3e/sdl2-populate-complete.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-build.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-configure.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-download.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-install.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-mkdir.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-patch.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-test.rule
+M:/eduEngineKarl/Build/_deps/sdl2-subbuild/CMakeFiles/62bca8d2ce579d7630e4abff5b45cd1b/sdl2-populate-update.rule

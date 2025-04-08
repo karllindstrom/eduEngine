@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/7a6ebff59167a0e0196cc40b5164650b/imgui-populate.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/327ffb3d5b6195e96f3c69c9c12dd250/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-build.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-download.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-install.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-test.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/imgui-subbuild/CMakeFiles/c54bfca226b7179f399e6bfee3ff2a8e/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

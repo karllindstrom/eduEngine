@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="M:\eduEngineKarl\Build\_deps\glew-subbuild\CMakeFiles\3f022a35f61015af7ae92976186971cf\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B56DE8F2-3AD0-3C29-A98D-727C56AD6846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

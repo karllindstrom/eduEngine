@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/entt-populate"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed81daf3c3eb10523610e13c1cc08d51/entt-populate.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/c270491ecc2708e67c2d589e33a95846/entt-populate-complete.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-build.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-configure.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-download.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-install.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-mkdir.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-patch.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-test.rule"
+		},
+		{
+			"file" : "M:/eduEngineKarl/Build/_deps/entt-subbuild/CMakeFiles/ed79cc586380e3ff3d35443f75719c13/entt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"entt-populate"
+		],
+		"name" : "entt-populate"
+	}
+}
