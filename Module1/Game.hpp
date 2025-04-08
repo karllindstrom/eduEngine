@@ -27,6 +27,8 @@ public:
 
     void init_entities();
 
+    void RenderSystem();
+
     /// @brief For rendering of game contents
     /// @param time Total time elapsed in seconds
     /// @param screenWidth Current width of the window in pixels
@@ -65,6 +67,34 @@ private:
             glm::mat4 rotationMat = glm::mat4_cast(rotation);
             return translationMat * scaleMat * rotationMat;
         }
+    };
+
+    struct LinearVelocityComponent
+    {
+        glm::vec3 velocity;
+    };
+
+    struct MeshComponent
+    {
+        std::shared_ptr<eeng::RenderableMesh> resource;
+
+        MeshComponent() : resource(nullptr){}
+
+        explicit MeshComponent(std::shared_ptr<eeng::RenderableMesh> mesh) : resource(std::move(mesh)){}
+
+    };
+
+    struct PlayerControllerComponent
+    {
+        float moveSpeed;
+        float jumpStrength;
+        int controlMode;
+
+        PlayerControllerComponent()
+            : moveSpeed(1.0f), jumpStrength(1.0f), controlMode(1) {}
+
+        PlayerControllerComponent(float moveSpeed, float jumpStrength, int controlMode)
+            : moveSpeed(moveSpeed), jumpStrength(jumpStrength), controlMode(controlMode) {}
     };
 
     // Matrices for view, projection and viewport

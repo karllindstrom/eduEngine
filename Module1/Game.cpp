@@ -132,12 +132,57 @@ void Game::init_entities()
 {
     //horse with components transform, velocity, mesh
 
-    auto horse = entity_registry->create();
+   
 
     //translate, quatrot, scale
-    TransformComponent transform{ glm_aux::vec3_000,
+    TransformComponent transform{ glm_aux::vec3_000,glm::vec3(0.03f),
     glm::angleAxis(glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0f)),
-    glm::vec3(0.03f) };
+    };
+
+    LinearVelocityComponent velocity{ glm::vec3(0.0f, 0.0f, -1.0f) };
+
+    MeshComponent mesh{};
+    mesh.resource = std::make_shared<eeng::RenderableMesh>();
+    mesh.resource->load("assets/Animals/horse.fbx", false);
+
+    auto horse = entity_registry->create();
+
+    entity_registry->emplace<TransformComponent>(horse, transform);
+    entity_registry->emplace<LinearVelocityComponent>(horse, velocity);
+    entity_registry->emplace<MeshComponent>(horse, mesh);
+
+    auto player = entity_registry->create();
+
+    MeshComponent playerMesh{};
+    playerMesh.resource = std::make_shared<eeng::RenderableMesh>();
+    playerMesh.resource->load("assets/Amy/Ch46_nonPBR.fbx");
+    playerMesh.resource->load("assets/Amy/idle.fbx", true);
+    playerMesh.resource->load("assets/Amy/walking.fbx", true);
+
+    //delete root motion
+    playerMesh.resource->removeTranslationKeys("mixamorig:Hips");
+
+    PlayerControllerComponent playerComp{ 0.5f, 2.0f, 1 };
+
+    entity_registry->emplace<TransformComponent>(player, transform);
+    entity_registry->emplace<LinearVelocityComponent>(player, velocity);
+    entity_registry->emplace<MeshComponent>(player, mesh);
+    entity_registry->emplace<PlayerControllerComponent>(player, playerComp);
+
+}
+
+void Game::PlayerControlSystem(entt::registry& registry, float deltaTime) {
+    auto view = registry.view<PlayerControllerComponent, LinearVelocityComponent>();
+
+
+}
+
+void Game::RenderSystem() {
+    auto view = entity_registry->view<TransformComponent, MeshComponent>();
+
+    for (auto [entity, transform, mesh] : view.each()) {
+        forwardRenderer->renderMesh(mesh.resource, transform.GetTransformMatrix());
+    }
 }
 
 void Game::render(
