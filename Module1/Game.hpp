@@ -27,7 +27,11 @@ public:
 
     void init_entities();
 
-    void RenderSystem();
+    void PlayerControlSystem(InputManagerPtr input);
+
+    void MoveSys(float deltaTime);
+
+    void RenderSystem(float time);
 
     /// @brief For rendering of game contents
     /// @param time Total time elapsed in seconds

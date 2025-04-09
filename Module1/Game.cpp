@@ -86,9 +86,10 @@ void Game::update(
     float deltaTime,
     InputManagerPtr input)
 {
+    PlayerControlSystem(input);
     updateCamera(input);
-
-    updatePlayer(deltaTime, input);
+    MoveSys(deltaTime);
+    //updatePlayer(deltaTime, input);
 
     pointlight.pos = glm::vec3(
         glm_aux::R(time * 0.1f, { 0.0f, 1.0f, 0.0f }) *
@@ -171,16 +172,51 @@ void Game::init_entities()
 
 }
 
-void Game::PlayerControlSystem(entt::registry& registry, float deltaTime) {
-    auto view = registry.view<PlayerControllerComponent, LinearVelocityComponent>();
+void Game::PlayerControlSystem(InputManagerPtr input) {
+    
+    using Key = eeng::InputManager::Key;
+    bool W = input->IsKeyPressed(Key::W);
+    bool A = input->IsKeyPressed(Key::A);
+    bool S = input->IsKeyPressed(Key::S);
+    bool D = input->IsKeyPressed(Key::D);
 
+    glm::vec3 fwd = glm::vec3(glm_aux::R(camera.yaw, glm_aux::vec3_010) * glm::vec4(0.0f, 0.0f, -1.0f, 0.0f));
+    glm::vec3 right = glm::cross(fwd, glm_aux::vec3_010);
+
+    glm::vec3 direction = glm::vec3(fwd * ((W ? 1.0f : 0.0f) + (S ? -1.0f : 0.0f)) + right * ((A ? -1.0f : 0.0f) + (D ? 1.0f : 0.0f)));
+
+    auto view = entity_registry->view<TransformComponent, LinearVelocityComponent, PlayerControllerComponent>();
+
+    for (auto [entity, transform, velocity, player] : view.each())
+    {
+        camera.lookAt = transform.position;
+        camera.pos = transform.position;
+    }
 
 }
 
-void Game::RenderSystem() {
+void Game::MoveSys(float deltaTime) {
+    auto view = entity_registry->view<TransformComponent, LinearVelocityComponent>();
+
+    //rotation += 5.0 * deltaTime;
+
+    for (auto [entity, transform, velocity] : view.each()) {
+        glm::mat4 _matrix(1.0f);
+
+        transform.position += velocity.velocity * deltaTime;
+
+        transform.GetTransformMatrix() = glm::translate(_matrix, transform.position) * glm::mat4_cast(transform.rotation) * glm::scale(_matrix, transform.scale);
+    }
+}
+
+void Game::RenderSystem(float time) {
     auto view = entity_registry->view<TransformComponent, MeshComponent>();
 
     for (auto [entity, transform, mesh] : view.each()) {
+
+        //animationss
+        mesh.resource->animate(3, time);
+
         forwardRenderer->renderMesh(mesh.resource, transform.GetTransformMatrix());
     }
 }
@@ -211,9 +247,11 @@ void Game::render(
     grass_aabb = grassMesh->m_model_aabb.post_transform(grassWorldMatrix);
 
     // Horse
-    horseMesh->animate(3, time);
+    /*horseMesh->animate(3, time);
     forwardRenderer->renderMesh(horseMesh, horseWorldMatrix);
-    horse_aabb = horseMesh->m_model_aabb.post_transform(horseWorldMatrix);
+    horse_aabb = horseMesh->m_model_aabb.post_transform(horseWorldMatrix);*/
+
+    RenderSystem(time);
 
     // Character, instance 1
     characterMesh->animate(characterAnimIndex, time * characterAnimSpeed);
